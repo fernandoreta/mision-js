@@ -16,4 +16,8 @@ const movie = {
 // objects -> object = { prop: 'val }
 // arrays -> []
 
-console.log(movie.personajesTerciarios[0]);
+// Tarea
+// 1. En un arreglo metyer 5 villanos.
+// 2. Hacer una condicion (la que tu quieras), si esa condicion
+    // es verdadera -> Modificar el nombre del primer villano
+    // si es false ->  Modificar el nombre del ultimo villano -> trick
