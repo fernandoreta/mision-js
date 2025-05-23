@@ -1,6 +1,15 @@
 const fileName = document.currentScript.src.split('/').pop();
-const personajePrincipal = "Luffy";
-let personajeSecundario = "Zoro"
+const movie = {
+    personajePrincipal: "Luffy",
+    personajeSecundario: "Zoro",
+    name: 'name movie',// string
+    alreadyWatched: false,// boolean
+    seasons: 2, //number
+    villanos: 'crododile',
+    personajesTerciarios: 'usop',
+    personajeconFrutadeldiablo: true,
+    numerodecapitulosqueaparecioelpersonaje: 200 
+};
 // let cambia
 // const no cambia al momento de declarar una variable
 console.log("El nombre del archivo es: " + fileName);
@@ -10,7 +19,7 @@ if (fileName === "onepiece.js") {
 } else {
     console.log("Este no es el archivo esperado.");
 }
-if (personajePrincipal === "Luffy") {
+if (movie.seasons === 2) {
     personajeSecundario = 'Change';
     console.log("El protagonista es Luffy.");
 } else {
@@ -18,4 +27,4 @@ if (personajePrincipal === "Luffy") {
 }
 
 // Me ayude con chat gpt por que no recuerdo como agregar las variables pero es lo que estaba checando segun lo que entendi es eso que tengo que decirle el LET para definir mi variable 
-// y definir si el archivo o no es correco con el if y else como lo explicaste
+// y definir si el archivo o no es correco con el if y else como lo explicaste  
